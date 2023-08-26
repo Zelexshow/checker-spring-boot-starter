@@ -1,6 +1,6 @@
-package com.zelex.starter.checker.model;
+package com.zelexstarter.checker.model;
 
-import com.zelex.starter.checker.util.CheckUtil;
+import com.zelexstarter.checker.util.CheckUtil;
 
 import java.util.function.Function;
 

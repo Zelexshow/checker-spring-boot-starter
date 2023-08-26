@@ -8,10 +8,14 @@
         <version>2.5.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.zelex.starter</groupId>
+
+    <packaging>jar</packaging>
+
+    <groupId>com.zelexstarter</groupId>
     <artifactId>checker-spring-boot-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>checker-spring-boot-starter</name>
+
     <description>checker-spring-boot-starter</description>
     <properties>
         <java.version>17</java.version>
@@ -44,14 +48,5 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

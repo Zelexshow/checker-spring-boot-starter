@@ -1,4 +1,4 @@
-package com.zelex.starter.checker.config;
+package com.zelexstarter.checker.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

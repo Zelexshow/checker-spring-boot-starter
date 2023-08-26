@@ -1,4 +1,4 @@
-package com.zelex.starter.checker;
+package com.zelexstarter.checker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,2 +1,2 @@
 #??????????????
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.zelex.starter.checker.config.CheckAutoConfigure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.zelexstarter.checker.config.CheckAutoConfigure

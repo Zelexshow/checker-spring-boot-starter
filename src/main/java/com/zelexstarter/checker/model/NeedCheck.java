@@ -1,4 +1,4 @@
-package com.zelex.starter.checker.model;
+package com.zelexstarter.checker.model;
 
 
 import java.lang.annotation.ElementType;

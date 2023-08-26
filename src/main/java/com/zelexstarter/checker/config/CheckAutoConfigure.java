@@ -1,6 +1,6 @@
-package com.zelex.starter.checker.config;
+package com.zelexstarter.checker.config;
 
-import com.zelex.starter.checker.aop.NeedCheckPoint;
+import com.zelexstarter.checker.aop.NeedCheckPoint;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

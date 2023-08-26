@@ -1,7 +1,7 @@
-package com.zelex.starter.checker.aop;
+package com.zelexstarter.checker.aop;
 
-import com.zelex.starter.checker.model.CheckIn;
-import com.zelex.starter.checker.model.NeedCheck;
+import com.zelexstarter.checker.model.CheckIn;
+import com.zelexstarter.checker.model.NeedCheck;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
@@ -22,7 +22,7 @@ public class NeedCheckPoint {
      * 自定义切入点
      * 切入点说明：这样指定的切入点是任何一个执行的方法有一个 @NeedCheck 注解的连接点（这里连接点可以看是方法）
      */
-    @Pointcut("@annotation(com.zelex.starter.checker.model.NeedCheck)")
+    @Pointcut("@annotation(com.zelexstarter.checker.model.NeedCheck)")
     private void needCheckPoint() {}
 
     /**

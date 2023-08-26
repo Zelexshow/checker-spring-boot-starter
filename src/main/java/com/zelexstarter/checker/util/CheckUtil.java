@@ -1,4 +1,4 @@
-package com.zelex.starter.checker.util;
+package com.zelexstarter.checker.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -13,15 +13,19 @@ public class CheckUtil {
             return Boolean.FALSE;
         }
         if(value instanceof String str && ((String) value).length() > 0) {
-            //带区号
-            String regExWithAreaNum = "^[0][1-9]{2,3}-[0-9]{5,10}$";
+
             // 没带区号
-            String regExWithoutAreaNum = "^[1-9]{1}[0-9]{5,8}$";
-            Pattern p1 = Pattern.compile(regExWithAreaNum);
-            Pattern p2 = Pattern.compile(regExWithoutAreaNum);
-            Matcher m = str.length() > 9 ? p1.matcher(str) : p2.matcher(str);
+            String regExWithoutAreaNum = "^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(17[013678])|(18[0,5-9]))\\d{8}$";
+            Matcher m = Pattern.compile(regExWithoutAreaNum).matcher(str);
             return m.matches() ? Boolean.TRUE : Boolean.FALSE;
         }
         return Boolean.FALSE;
+    }
+
+    public static void main(String[] args) {
+//        String phone = "15863929788";
+        String phone = "11573929788";
+        System.out.println(isPhone(phone));
+
     }
 }
